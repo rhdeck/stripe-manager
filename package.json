@@ -53,8 +53,7 @@
   ],
   "dependencies": {
     "commander": "^6.0.0",
-    "inquirer": "^7.3.3",
-    "stripe": "^8.114.0"
+    "inquirer": "^7.3.3"
   },
   "liveLink": {
     "ignoreMasks": [
@@ -67,6 +66,7 @@
   },
   "peerDependencies": {
     "@raydeck/event-manager": "^1.1.0",
-    "@raydeck/session-manager": "^1.4.0"
+    "@raydeck/session-manager": "^1.4.0",
+    "stripe": "^8.114.0"
   }
 }
