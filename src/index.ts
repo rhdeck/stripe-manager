@@ -179,7 +179,7 @@ export function withStripeWebhook(
       );
       try {
         if (f) await f({ stripe, event });
-        trigger("stripe." + <StripeEventType>event.type, <EMStripeEvent>{
+        await trigger("stripe." + <StripeEventType>event.type, <EMStripeEvent>{
           type: <StripeEventType>event.type,
           stripe,
           event,
